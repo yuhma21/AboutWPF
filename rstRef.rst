@@ -57,7 +57,7 @@ rstの基礎
 
 ``:linenos:`` を記述することでコードバングを表示
 
-::
+.. code-block:: reST
 
    .. code-block:: python
       :linenos:
@@ -77,7 +77,7 @@ rstの基礎
 
 別のファイルを挿入して、言語を指定することができる
 
-::
+.. code-block:: reST
 
    .. literalinclude:: example.rb
       :language: ruby
@@ -86,7 +86,7 @@ rstの基礎
 特定の行をハイライト
 -----------------------------
 
-::
+.. code-block:: reST
 
    .. code-block:: python
       :emphasize-lines: 3,5
