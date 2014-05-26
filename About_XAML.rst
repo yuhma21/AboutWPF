@@ -7,3 +7,12 @@ About XAML
 XAMLについて
 ==================
 
+XAML(Extensible Application Markup Language)は,netオブジェクトのインスタンス化に使用される
+
+* WPFユーザーコントロールのインスタンス化
+
+* panel,Buttonなどのコントロールのアレンジ
+
+XAMLを理解する
+=====================
+

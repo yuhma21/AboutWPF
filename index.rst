@@ -13,6 +13,7 @@ Contents:
    :numbered:
 
    About_WPF
+   About_Architecture
    rstRef
 
 Indices and tables
