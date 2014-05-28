@@ -13,6 +13,39 @@ XAML(Extensible Application Markup Language)は,netオブジェクトのイン�
 
 * panel,Buttonなどのコントロールのアレンジ
 
-XAMLを理解する
+XAMLの基礎
 =====================
 
+プロジェクトを作成した時に自動生成するXAML
+
+.. code-block:: xaml
+   :linenos:
+
+   <Window x:Class="WpfTutorial5.MainWindow"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+           Title="MainWindow" Height="350" Width="525">
+       <Grid>
+           
+       </Grid>
+   </Window>
+
+上記のコードは要素が2つあるが、トップレベルの要素は下記しか無い
+
+* Window
+
+* Page(Windowに似ているがnavegate用のアプリケーションに使用される)
+
+* Application(リソースやスタートアップの設定を定義する)
+
+4行目にある
+
+.. code-block:: XAML
+
+           Title="MainWindow" Height="350" Width="525">
+
+はプロパティと呼ばれ、Windowのタイトルと縦横の大きさを設定している
+
+----------------------------
+XAMLの名前空間
+----------------------------
