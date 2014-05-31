@@ -18,8 +18,9 @@ XAMLの基礎
 
 プロジェクトを作成した時に自動生成するXAML
 
-.. code-block:: xaml
+.. code-block:: xml
    :linenos:
+   :emphasize-lines: 4
 
    <Window x:Class="WpfTutorial5.MainWindow"
            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -49,3 +50,24 @@ XAMLの基礎
 ----------------------------
 XAMLの名前空間
 ----------------------------
+
+.. code-block:: xml
+   :linenos:
+   :emphasize-lines: 2,3
+
+   <Window x:Class="WpfTutorial5.MainWindow"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+           Title="MainWindow" Height="350" Width="525">
+       <Grid>
+           
+       </Grid>
+   </Window>
+
+* http://schemas.microsoft.com/winfx/2006/xaml/presentation
+
+   Core WPF名前空間。ユーザーインターフェイスを含む全てのWPFクラスを参照ｌする
+
+* http://schemas.microsoft.com/winfx/2006/xaml
+
+   XAML名前空間。

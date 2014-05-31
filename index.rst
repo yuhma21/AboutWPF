@@ -15,6 +15,7 @@ Contents:
    About_WPF
    WPF_Architecture
    About_XAML
+   XAML_Foundation
    rstRef
 
 Indices and tables
